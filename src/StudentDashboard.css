@@ -1,0 +1,96 @@
+/* overall page */
+body {
+  background: linear-gradient(135deg, #e3f2fd, #fce4ec);
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  font-family: "Segoe UI", Arial, sans-serif;
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+/* heading */
+.container h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #222;
+}
+
+/* cards */
+.card {
+  background: #ffffff;
+  padding: 18px 20px;
+  margin-bottom: 20px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.12);
+}
+
+/* student name */
+.card h2 {
+  margin: 0;
+  color: #1a237e;
+}
+
+.card p {
+  margin-top: 6px;
+  color: #555;
+}
+
+/* skills */
+.skill {
+  display: inline-block;
+  background: linear-gradient(135deg, #42a5f5, #1e88e5);
+  color: white;
+  padding: 7px 14px;
+  margin: 6px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+/* progress bar */
+.progress {
+  background: #e0e0e0;
+  border-radius: 20px;
+  overflow: hidden;
+  height: 28px;
+  margin-top: 10px;
+}
+
+.fill {
+  height: 100%;
+  background: linear-gradient(90deg, #43a047, #66bb6a);
+  color: white;
+  text-align: center;
+  line-height: 28px;
+  font-weight: 600;
+  transition: width 0.4s ease;
+}
+
+/* button */
+.button {
+  width: 100%;
+  padding: 14px;
+  background: linear-gradient(135deg, #000000, #333333);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 15px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.button:hover {
+  background: linear-gradient(135deg, #333333, #000000);
+  transform: scale(1.02);
+}
