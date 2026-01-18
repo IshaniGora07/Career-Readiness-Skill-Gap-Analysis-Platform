@@ -1,7 +1,11 @@
 const express = require("express");
 const cors = require("cors"); //Cross Origin Resource Sharing
+const connectDB = require("./config/db");
 
 const app = express();
+
+// connect database
+connectDB();
 
 // middleware
 app.use(cors());
